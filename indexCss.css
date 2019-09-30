@@ -1,5 +1,5 @@
 div.bodyBackgroundImg{
-  background-image: url('../images/mainbodycover1.jpg');
+  background-image: url('/images/mainbodycover1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
