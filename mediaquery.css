@@ -1,0 +1,8 @@
+@media (min-width: 425px) {
+  body{
+    max-width: 425px;
+  }
+  ul.fixedNav, footer a{
+    max-width: 425px;
+  }
+}
