@@ -1,0 +1,43 @@
+div.legingCover{
+  background-image: url('../images/legingCover1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 39px;
+  opacity: 0.5;
+  max-width: 425px;
+  z-index: -1;
+}
+header{
+  margin: 0 20px 50px 20px;
+  padding: 10px;
+  background-color: rgba(77, 125, 207, 0.5);
+  color: #fff;
+}
+header h1{
+  padding: 0 0 0 15px;
+  border-left: 10px solid #6c5ce7;
+}
+header p{
+  font-size: 15px;
+}
+article img{
+  margin: auto;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+article.p h3{
+  padding: 0 0 0 15px;
+  border-left: 10px solid #55efc4;
+}
+article.p{
+  margin: 50px 20px 50px 20px;
+  padding: 10px;
+  background-color: rgba(77, 125, 207, 0.5);
+  color: #fff;
+  font-size: 15px;
+}
