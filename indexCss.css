@@ -1,5 +1,5 @@
 div.bodyBackgroundImg{
-  background-image: url('../images/mainbodycover1.jpg');
+  background-image: url('images/mainbodycover1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -65,19 +65,19 @@ div.mainCategorys{
   padding: 30px;
 }
 #shirt{
-  background-image: url('../images/maincover1.jpg');
+  background-image: url('images/maincover1.jpg');
 }
 #leging{
-  background-image: url('../images/maincover2.jpg');
+  background-image: url('images/maincover2.jpg');
 }
 #ten{
-  background-image: url('../images/maincover3.jpg');
+  background-image: url('images/maincover3.jpg');
 }
 #hard{
-  background-image: url('../images/maincover4.jpg');
+  background-image: url('images/maincover4.jpg');
 }
 #full{
-  background-image: url('../images/maincover5.jpg');
+  background-image: url('images/maincover5.jpg');
 }
 div.mainCategorys h3{
   position: absolute;
