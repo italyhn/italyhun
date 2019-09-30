@@ -1,0 +1,133 @@
+div.bodyBackgroundImg{
+  background-image: url('../images/mainbodycover1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 39px;
+  opacity: 0.3;
+  max-width: 425px;
+  z-index: -1;
+}
+
+div.mainDescription{
+  text-align: center;
+  margin: 0 30px;
+}
+
+div.callBannerBox{
+  width: 100%;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+div.callBannerBox a{
+  color: #fffa65;
+  font-size: 15px;
+}
+div.callBannerBox a i{
+  color: #ff7675;
+}
+
+
+div.mainCategory{
+  box-sizing: border-box;
+  margin-top: 100px;
+}
+
+.imageDark{
+  position: relative;
+}
+.imageDark::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  width: 95%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+div.mainCategorys{
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 95%;
+  height: 150px;
+  box-sizing: border-box;
+  margin: 0 auto 10px auto;
+  border-radius: 10px;
+  padding: 30px;
+}
+#shirt{
+  background-image: url('../images/maincover1.jpg');
+}
+#leging{
+  background-image: url('../images/maincover2.jpg');
+}
+#ten{
+  background-image: url('../images/maincover3.jpg');
+}
+#hard{
+  background-image: url('../images/maincover4.jpg');
+}
+#full{
+  background-image: url('../images/maincover5.jpg');
+}
+div.mainCategorys h3{
+  position: absolute;
+  margin: 0;
+  color: white;
+}
+div.mainCategorys p{
+  position: absolute;
+  top: 50px;
+  color: white;
+  font-size: 15px;
+  margin: 5px 35px 5px 0;
+}
+div.mainCategorys i{
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+  -webkit-animation: categoryI 2s infinite;
+  -ms-animation: categoryI 2s infinite;
+  -moz-animation: categoryI 2s infinite;
+  -o-animation: categoryI 2s infinite;
+  animation: categoryI 2s infinite;
+}
+-webkit-@keyframes categoryI {
+  0%{padding-right: 10px;}
+  33%{color: #74b9ff;}
+  66%{color: #00cec9;}
+  100%{color: #ff7675;}
+}
+-ms-@keyframes categoryI {
+  0%{padding-right: 10px;}
+  33%{color: #74b9ff;}
+  66%{color: #00cec9;}
+  100%{color: #ff7675;}
+}
+-moz-@keyframes categoryI {
+  0%{padding-right: 10px;}
+  33%{color: #74b9ff;}
+  66%{color: #00cec9;}
+  100%{color: #ff7675;}
+}
+-o-@keyframes categoryI {
+  0%{padding-right: 10px;}
+  33%{color: #74b9ff;}
+  66%{color: #00cec9;}
+  100%{color: #ff7675;}
+}
+@keyframes categoryI {
+  0%{padding-right: 10px;}
+  33%{color: #74b9ff;}
+  66%{color: #00cec9;}
+  100%{color: #ff7675;}
+}
