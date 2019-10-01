@@ -51,7 +51,7 @@ div.mainCategory{
   background: rgba(0, 0, 0, 0.3);
   width: 95%;
   margin: auto;
-  border-radius: 10px;
+  border-radius: 0px;
 }
 
 div.mainCategorys{
@@ -61,7 +61,7 @@ div.mainCategorys{
   height: 150px;
   box-sizing: border-box;
   margin: 0 auto 10px auto;
-  border-radius: 10px;
+  border-radius: 0px;
   padding: 30px;
 }
 #shirt{
