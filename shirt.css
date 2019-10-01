@@ -35,7 +35,7 @@ main article img{
 main article.price{
   margin: 50px 20px 0 20px;
   padding: 10px;
-  background-color: rgba(255, 0, 0, 0.4);
+  background-color: rgba(0, 206, 201, 0.5);
   color: #fff;
 }
 #borderBottomDot{
