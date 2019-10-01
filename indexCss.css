@@ -18,8 +18,8 @@ div.mainDescription{
 
 div.callBannerBox{
   width: 100%;
-  background-color: black;
-  border-radius: 10px;
+  background-color: #1f1f1f;
+  border-radius: 0px;
   padding: 10px;
   margin: 5px 0;
   box-sizing: border-box;
@@ -35,7 +35,7 @@ div.callBannerBox a i{
 
 div.mainCategory{
   box-sizing: border-box;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .imageDark{
