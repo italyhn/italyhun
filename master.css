@@ -36,12 +36,18 @@ ul.fixedNav li{
 ul.fixedNav li.rightMenu{
   border-right: none;
 }
+<!--
 ul.fixedNav li a{
   animation: navColor 4s infinite;
   -webkit-animation: navColor 4s infinite;
   -ms-animation: navColor 4s infinite;
   -moz-animation: navColor 4s infinite;
   -o-animation: navColor 4s infinite;
+  color:#fffa65
+}
+-->
+ul.fixedNav li a{
+  color:#fffa65
 }
 -webkit-@keyframes navColor {
   0%{color: #ff7675;}
